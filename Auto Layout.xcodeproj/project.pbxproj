@@ -12,6 +12,7 @@
 		2FF93BB424A2E88B00B59A0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FF93BB224A2E88B00B59A0D /* Main.storyboard */; };
 		2FF93BB624A2E88E00B59A0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FF93BB524A2E88E00B59A0D /* Assets.xcassets */; };
 		2FF93BB924A2E88E00B59A0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FF93BB724A2E88E00B59A0D /* LaunchScreen.storyboard */; };
+		2FF93BC124A4477600B59A0D /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF93BC024A4477600B59A0D /* UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2FF93BB524A2E88E00B59A0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FF93BB824A2E88E00B59A0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FF93BBA24A2E88E00B59A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FF93BC024A4477600B59A0D /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				2FF93BAE24A2E88B00B59A0D /* AppDelegate.swift */,
 				2FF93BB024A2E88B00B59A0D /* ViewController.swift */,
+				2FF93BC024A4477600B59A0D /* UIView.swift */,
 				2FF93BB224A2E88B00B59A0D /* Main.storyboard */,
 				2FF93BB524A2E88E00B59A0D /* Assets.xcassets */,
 				2FF93BB724A2E88E00B59A0D /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FF93BB124A2E88B00B59A0D /* ViewController.swift in Sources */,
+				2FF93BC124A4477600B59A0D /* UIView.swift in Sources */,
 				2FF93BAF24A2E88B00B59A0D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S9Y4T2SF5S;
 				INFOPLIST_FILE = "Auto Layout/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S9Y4T2SF5S;
 				INFOPLIST_FILE = "Auto Layout/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
